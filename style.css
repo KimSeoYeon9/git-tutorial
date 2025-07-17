@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #fefee3;
+}
+
+.frame-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 203px;
+    background-color: #fde4b3;
+    overflow: clip;
+}
+
+.search-bar {
+    position: absolute;
+    top: 33.005%;
+    bottom: 45.32%;
+    left: 11.309%;
+    right: 9.325%;
+    background-color: #fffad6;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    width: 100%;
+}
+
+.search-icon {
+    width: 24.948px;
+    height: 24.948px;
+}
+
+.search-text-container {
+    flex-grow: 1;
+}
+
+.search-text {
+    font-family: 'Ownglyph_PDH:Regular', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.menu-icon-container {
+    position: absolute;
+    top: 32.02%;
+    bottom: 43.35%;
+    left: 3.108%;
+    right: 93.618%;
+    padding: 15px 1.5%;
+}
+
+.menu-icon-vector {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-icon-vector-part {
+    position: relative;
+    width: 37.5px;
+    height: 20.833px;
+}
+
+.user-actions {
+    position: absolute;
+    top: 29.064%;
+    bottom: 43.35%;
+    left: 93.519%;
+    right: 2.778%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.alarm-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.top-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 7px;
+    padding: 3px 0;
+}
+
+.nav-button {
+    background-color: #fde4b3;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kyobo_Handwriting_2024:psw', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px;
+}
+
+.main-nav {
+    position: absolute;
+    top: 63.547%;
+    bottom: -7.882%;
+    left: 33.267%;
+    right: 33.73%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-button-main {
+    background-color: #fde4b3;
+    border: none;
+    cursor: pointer;
+    font-family: 'Ownglyph_PDH:Regular', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+.product-grid {
+    position: absolute;
+    top: 32.23%;
+    bottom: 9.186%;
+    left: 8.598%;
+    right: 8.664%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 113px;
+    padding: 16px 17px;
+    overflow: clip;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-name {
+    font-family: 'Paperlogy:4_Regular', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.product-price {
+    font-family: 'Ownglyph_PDH:Regular', sans-serif;
+    font-size: 24px;
+}
+
+.slide {
+    position: absolute;
+    top: 203px;
+    left: 0;
+    width: 100%;
+    height: 565px;
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('http://localhost:3845/assets/67b7ae7687a36cc392b41e952037d27ca4920a78.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pagination {
+    position: absolute;
+    left: 544px;
+    top: 2394px;
+    width: 408px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+
+.page-number, .page-number-active {
+    width: 72px;
+    height: 72px;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ownglyph_PDH:Regular', sans-serif;
+    font-size: 36px;
+}
+
+.page-number {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.page-number-active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    top: 507px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 99999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-left {
+    left: 30px;
+}
+
+.arrow-right {
+    left: 1405px;
+    top: 512px;
+}
+
+.arrow-icon-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-icon {
+    width: 100%;
+    height: 100%;
+    transform: rotate(270deg) scaleY(-1);
+    opacity: 0.6;
+}
+
+.arrow-icon-right {
+    width: 100%;
+    height: 100%;
+    transform: rotate(90deg) scaleY(-1);
+    opacity: 0.6;
+}
